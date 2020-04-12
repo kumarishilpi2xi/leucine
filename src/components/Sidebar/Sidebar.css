@@ -11,11 +11,16 @@
   }
 
 .sidebar{
-    width: 150px;
+  
+    top:0px;
+    width: 160px;
     height: 850px;
     background-color: #fafafa;
+
 }
 ul{
+    margin:0;
+    padding-right:30px;
     list-style: none;
     padding-left: 0px;
     padding-top:30px;
@@ -24,10 +29,11 @@ ul{
 ul li{
     
     text-align: center;
-    width: 120px;
+    width: 130px;
     height: 70px;
     background-color: #fafafa;
     padding-bottom: 15px;
+    padding-right:8px;
    
    
 }
@@ -35,7 +41,7 @@ ul li{
     width: 15px;
     height: 15px;
     padding-top:17px;
-    padding-left: 53px;
+    padding-left: 51px;
     padding-bottom: 12px;
 }
 .menu{
@@ -49,7 +55,7 @@ ul li{
     font-stretch: normal;
     font-style: normal;
     line-height: 0.71;
-    letter-spacing: 1px;
+    letter-spacing: 1.5px;
     text-align: center;
     color: #808080;
     
