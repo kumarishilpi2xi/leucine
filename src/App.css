@@ -2,11 +2,27 @@
 .App {
   text-align: center;
   margin:0px;
+  background-color:   #ecedf1;
+  
+}
+.header{
+
+}
+.stages{
+  position: absolute;;
+  top:131px;
+  left:150px;
+}
+.sidebar{
+  position: absolute;
+  left: 0px;
+  top:50px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.menubar{
+  position: absolute;
+  top:80px;
+  left:150px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -15,16 +31,7 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+
 
 .App-link {
   color: #61dafb;

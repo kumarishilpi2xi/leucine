@@ -1,0 +1,89 @@
+.container{
+    width: 300px;
+    height: 2307px;
+    border-radius: 5px;
+    box-shadow: 1px 0 3px 0 rgba(0, 0, 0, 0.12), 1px 0 1px 0 rgba(0, 0, 0, 0.14);
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    padding:10px 10px 10px 10px;
+}
+.cards{
+    margin-bottom:10px;
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 280px;
+    height: 78px;
+    border-radius: 3px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+    background-color: white;
+    padding:15px 10px 15px 10px;
+}
+.step-counter{
+    width: 13px;
+    height: 20px;
+    font-family: HiraginoSans-W2;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #666666;
+    padding:20px 10px 29px 10px;
+}
+.description{
+    width: 237px;
+    height: 35px;
+    border-radius: 4px;
+    background-color: #f4f4f4;
+    padding:12px 11px 8px 10px;
+  }
+
+.description-text{
+    width: 216px;
+    height: 28px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 16px;
+    letter-spacing: normal;
+    color: #333333;
+}
+
+.active-step{
+    width: 237px;
+    height: 35px;
+    border-radius: 4px;
+    box-shadow: inset 0 -2px 0 0 #3cd3ad;
+    background-color: rgba(0, 0, 0, 0.14);
+}
+.active-description{
+    width: 145px;
+    height: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #333333;
+  
+}
+.active-step-counter{
+    width: 15px;
+    height: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #3cd3ad;
+}
