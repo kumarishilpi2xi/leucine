@@ -3,16 +3,23 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/icons": "^4.9.1",
+    "@syncfusion/ej2-react-buttons": "^18.1.42",
+    "@syncfusion/ej2-react-grids": "^18.1.42",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "@types/ej.web.all": "^18.1.0",
     "@types/jest": "^24.9.1",
+    "@types/jquery": "^3.3.34",
     "@types/node": "^12.12.31",
     "@types/react": "^16.9.26",
     "@types/react-dom": "^16.9.5",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
+    "styled-components": "^5.0.1",
+    "syncfusion-javascript": "^18.1.42",
     "typescript": "^3.7.5"
   },
   "scripts": {

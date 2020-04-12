@@ -1,0 +1,51 @@
+.header{
+    width: 100%;
+    height: 50px;
+    /* box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.1);  */
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.logo .text{
+    position: relative;
+    left: 53px;
+    top:0px;
+    width: 75px;
+    height: 15px;
+
+}
+.account{
+    float: right;
+    position: relative;
+    right:41px;
+    top:15px;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    
+}
+.icon-shape{
+    padding-right: 7px;
+}
+.shape {
+    width: 16px;
+    height: 16px;
+  }
+.account-text{
+padding-top:1px;
+  
+    width: 60px;
+  height: 14px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #3cd3ad;
+
+}
