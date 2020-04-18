@@ -11,9 +11,11 @@
   }
 
 .sidebar{
-   
+    display: flex;
+    flex-direction:column;
+    justify-content:space-between;
     width: 130px;
-    height: 850px;
+    height: 1026px;
     background-color: #fafafa;
 
 }
@@ -23,7 +25,7 @@ ul{
     padding-right:30px;
     list-style: none;
     padding-left: 0px;
-    /* padding-top:30px; */
+  
     
 }
 ul li{
@@ -77,4 +79,30 @@ ul li{
     letter-spacing: normal;
     text-align: center;
     color: #808080;
+}
+.hide-img{
+    width:16px;
+    height:16px;
+    padding-right:10px;
+   
+}
+.hide-text{
+width: 31px;
+  height: 10px;
+  font-family:'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.71;
+  letter-spacing: normal;
+  text-align: center;
+  color: #808080;
+  padding-left:45px;
+  padding-top:0px;
+}
+.hide-button{
+  position:relative;
+  bottom:0px;
+  padding-bottom:0px;
 }

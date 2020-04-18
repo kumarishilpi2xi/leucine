@@ -1,0 +1,17 @@
+.nav-buttons{
+
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    height: 45px;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+    background-color: white;
+    justify-content:space-between;
+  
+    
+}
+.but{
+    border-right:1px solid #dadada;
+
+}

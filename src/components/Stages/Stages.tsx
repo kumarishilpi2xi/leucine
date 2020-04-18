@@ -1,5 +1,6 @@
 import React from 'react';
 import './Stages.css';
+import NavigationButtons from '../NavigationButtons/NavigationButtons';
 
 const Stages: React.FC = () => {
     return(
@@ -55,6 +56,9 @@ const Stages: React.FC = () => {
                         Dismantling of Parts
                     </div>
                 </div>
+            </div>
+            <div className='Navigation-buttons'>
+                <NavigationButtons/>
             </div>
         </div>
     );

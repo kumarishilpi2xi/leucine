@@ -87,3 +87,8 @@
     letter-spacing: normal;
     color: #3cd3ad;
 }
+
+.Navigation-buttons{
+    position:relative;
+    margin-top:322px;
+}

@@ -1,5 +1,7 @@
 import React from 'react';
 import './Sidebar.css';
+import Hide from '../../assets/hide.png';
+
 
 
 const Sidebar : React.FC = () => {
@@ -53,6 +55,17 @@ const Sidebar : React.FC = () => {
                 </div>
                 <div>
                     <h1 className='menu audit'>Audit Logs</h1>
+                </div>
+            </li>
+        </ul>
+        <ul >
+            <li className='hide-button'>
+                <div className='hide-button'>
+                   <img src={Hide} className='hide-img'/>
+                
+                </div>
+                <div>
+                    <h1 className='hide-text'>Hide</h1>
                 </div>
             </li>
         </ul>
