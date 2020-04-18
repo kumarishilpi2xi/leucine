@@ -1,15 +1,11 @@
 import React from "react";
+import Logo from '../../assets/logo.png';
 import "./Header.css";
 
 const Header: React.FC = () =>{
     return <div className='header'>
         <div className='logo'>
-            <div className='shape'>
-                
-            </div>
-            <div className='text'>
-                    STREEM
-            </div>
+           <img src={Logo}/>
 
         </div>
         <div className='account'>

@@ -1,8 +1,11 @@
 @import "../node_modules/@syncfusion/ej2-react-buttons/styles/material.css";
+html{
+  background-color: #ecedf1;
+}
 .App {
   text-align: center;
   margin:0px;
-  background-color:   #ecedf1;
+  
   
 }
 .header{
@@ -17,6 +20,7 @@
   position: absolute;
   left: 0px;
   top:50px;
+  border-radius: 0px -50px 0 0;
 }
 
 .menubar{

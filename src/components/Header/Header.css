@@ -1,38 +1,23 @@
 .header{
-    width: 100%;
+    width: 1520px;
     height: 60px;
-    /* box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.1);  */
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.1);
     background-color: #fafafa;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-.logo{
-    display: flex;
-    flex-direction: row;
-    position: relative;
-    top:10px;
-    width: 113px;
-    left:15px;
-    height: 30px;
+.logo img{
+    padding:12px 0px 10px 10px;
+    width: 110px;
+  height: 30px;
+  object-fit: contain;
 }
 
-.logo .text{
-    position: relative;
-    top:0px;
-    left:15px;
-    width: 75px;
-    height: 15px;
-    font-size: 25px;
-    font-weight: 500;
-    color: #3cd3ad;
-    
-
-}
 .account{
     float: right;
     position: relative;
-    right:41px;
+    right:20px;
     top:15px;
     display:flex;
     flex-direction:row;
