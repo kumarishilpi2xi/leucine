@@ -50,12 +50,15 @@ export default class App extends React.Component {
             <QueryCard/>
             </div>
             <div className='box5'>
-            <RadioSelect isChecked/>
+            <RadioSelect isRadio isCheckbox={false}/>
             </div>
             <div className='box6'>
-            <RadioSelect isChecked={false}/>
+            <RadioSelect isRadio={false} isCheckbox />
             </div>
-            
+            <div className='box7'>
+            <RadioSelect isRadio={false} isCheckbox={false} />          {/**If checkbox is false then isRadio signifies simple radio button or checked
+                                                                        circle */}
+            </div>
             
             
         </div>);

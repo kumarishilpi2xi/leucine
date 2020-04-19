@@ -3,7 +3,8 @@ import './RadioSelect.css';
 import Optional from '../../Optional/Optional';
 
 type SelectProps ={
-    isChecked:boolean;
+    isRadio:boolean;
+    isCheckbox:boolean;
 
 }
 
@@ -26,23 +27,27 @@ const myStyle ={
     fontSize:'12px',
    
 };
-const RadioSelect: React.FC<SelectProps> = ({isChecked}:SelectProps) => {
+const RadioSelect: React.FC<SelectProps> = ({isRadio, isCheckbox}:SelectProps) => {
     return(
         <div className='radio-select-card'>
             <div className='question'>
-                Select one of the options below:
+            {isCheckbox?'Select one or more from the options below:'
+            :'Select one of the options below:'}
+                
             </div>
             <div className='options-container'>
                 <ul>
                     <li>
                     <div className='item'>
                         <div className='list-style'>
-                            {!isChecked? 
+                            {isCheckbox?<div className='checkbox'></div>
+                            :isRadio? 
                             <span className='material-icons' style={myStyle}>fiber_manual_record</span>
                             :
                             <span className='material-icons' style={iconStyle}>check_circle</span>
                             
                             }
+                            
                         </div>
                         <div className='option-description'>
                         Base Plate
@@ -55,7 +60,8 @@ const RadioSelect: React.FC<SelectProps> = ({isChecked}:SelectProps) => {
                     <li>
                     <div className='item'>
                         <div className='list-style'>
-                            {!isChecked? 
+                            {isCheckbox?<div className='checkbox'></div>
+                            :isRadio? 
                             <span className='material-icons' style={myStyle}>fiber_manual_record</span>
                             :
                             <span className='material-icons' style={iconStyle}>check_circle</span>
@@ -73,7 +79,8 @@ const RadioSelect: React.FC<SelectProps> = ({isChecked}:SelectProps) => {
                     <li>
                     <div className='item'>
                         <div className='list-style'>
-                            {!isChecked? 
+                            {isCheckbox?<div className='checkbox'></div>
+                            :isRadio? 
                             <span className='material-icons' style={myStyle}>fiber_manual_record</span>
                             :
                             <span className='material-icons' style={iconStyle}>check_circle</span>
@@ -91,7 +98,8 @@ const RadioSelect: React.FC<SelectProps> = ({isChecked}:SelectProps) => {
                      <li>
                     <div className='item'>
                         <div className='list-style'>
-                            {!isChecked? 
+                            {isCheckbox?<div className='checkbox'></div>
+                            :isRadio? 
                             <span className='material-icons' style={myStyle}>fiber_manual_record</span>
                             :
                             <span className='material-icons' style={iconStyle}>check_circle</span>
@@ -109,7 +117,8 @@ const RadioSelect: React.FC<SelectProps> = ({isChecked}:SelectProps) => {
                     <li>
                     <div className='item'>
                         <div className='list-style'>
-                            {!isChecked? 
+                            {isCheckbox?<div className='checkbox'></div>
+                            :isRadio? 
                             <span className='material-icons' style={myStyle}>fiber_manual_record</span>
                             :
                             <span className='material-icons' style={iconStyle}>check_circle</span>
