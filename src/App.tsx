@@ -6,6 +6,10 @@ import MenuBar from './components/MenuBar/MenuBar';
 import UploadCard from './components/Cards/UploadCard/UploadCard';
 import DateCard from './components/Cards/DateCard/DateCard';
 import URLCard from './components/Cards/URLCard/URLCard';
+import SignatureUpload from './components/Cards/SignatureUpload/SignatureUpload';
+import MediaUpload from './components/Cards/MediaUpload/MediaUpload';
+import QueryCard from './components/Cards/QueryCard/QueryCard';
+
 
 import './App.css';
 
@@ -35,6 +39,17 @@ export default class App extends React.Component {
             <div className='box1'>
             <URLCard/>
             </div>
+            <div className='box2'>
+            <SignatureUpload/>
+            </div>
+            <div className='box3'>
+            <MediaUpload/>
+            </div>
+            <div className='box4'>
+            <QueryCard/>
+            </div>
+            
+            
             
         </div>);
     }

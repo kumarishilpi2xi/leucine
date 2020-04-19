@@ -1,4 +1,4 @@
-.sign-card{
+.media-card{
     display:flex;
     flex-direction:column;
     width: 384px;
@@ -9,7 +9,7 @@
     padding:0;
 }
 
-.sign-box{
+.media-box{
    
     display:flex;
     flex-direction:column;
@@ -22,12 +22,14 @@
     margin:24px 16px 17px 16px;
     background-color: white;
 }
-.sign-icon{
-  
+.media-icon{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
     padding-top:35px;
 }
-.sign-description-text{
-  width: 272px;
+.media-description-text{
+  width: 267px;
   height: 54px;
   opacity: 0.6;
   /* font-family: Nunito; */
@@ -39,6 +41,6 @@
   letter-spacing: normal;
   text-align: center;
   color: #666666;
-  padding-top:24px;
+  padding-top:8px;
 
 }
