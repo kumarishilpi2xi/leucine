@@ -9,6 +9,7 @@ import URLCard from './components/Cards/URLCard/URLCard';
 import SignatureUpload from './components/Cards/SignatureUpload/SignatureUpload';
 import MediaUpload from './components/Cards/MediaUpload/MediaUpload';
 import QueryCard from './components/Cards/QueryCard/QueryCard';
+import RadioSelect from './components/Cards/SelectOptionCard/RadioSelect';
 
 
 import './App.css';
@@ -47,6 +48,12 @@ export default class App extends React.Component {
             </div>
             <div className='box4'>
             <QueryCard/>
+            </div>
+            <div className='box5'>
+            <RadioSelect isChecked/>
+            </div>
+            <div className='box6'>
+            <RadioSelect isChecked={false}/>
             </div>
             
             

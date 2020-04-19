@@ -1,0 +1,66 @@
+.radio-select-card{
+      width: 384px;
+  height: 373px;
+  border-radius: 4px;
+  box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.12), 0 3px 4px 0 rgba(0, 0, 0, 0.14), 0 3px 3px -2px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  display:flex;
+  flex-direction:column;
+ 
+}
+.item{
+
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-content:center;
+}
+.options-container{
+
+    padding-top:17px;
+    background-color:white;
+  
+    width:344px;
+    height:min-content;
+    border-bottom:2px solid #12aab3;
+    padding-bottom:0px;
+    margin-left:16px;
+}
+.options-container ul li{
+    padding-top:10px;
+    background-color:white;
+    height:22px;
+    list-style:none;
+    width:344px;
+    
+}
+.question{
+      width: 286px;
+  height: 27px;
+  /* font-family: Nunito; */
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #666666;
+  padding:24px 16px 0px 16px;
+}
+.option-description{
+    position:absolute;
+    left:56px;
+}
+.add-new{
+    padding:8px 16px 0px 16px;
+      width: 121px;
+  height: 22px;
+  /* font-family: Nunito; */
+  font-size: 16px;
+  
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #12aab3;
+}

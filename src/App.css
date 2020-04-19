@@ -91,6 +91,11 @@ position:absolute;
 .box5{
   position:absolute;
  left:500px;
- top:2500px;
+ top:2300px;
  
+}
+.box6{
+  position:absolute;
+  left:500px;
+  top:2700px;
 }
