@@ -1,0 +1,58 @@
+
+.optional{
+    position:absolute;
+    left:250px;
+    bottom:24px;
+    width:150px;
+    display:flex;
+    flex-direction:row;
+
+}
+.optional-text{
+    padding-right:10px;
+      width: 61px;
+  height: 22px;
+  /* font-family: Nunito; */
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: #666666;
+
+}
+.rectangle-toggle-off{
+      width: 48px;
+  height: 24px;
+  border-radius: 100px;
+  background-color: #666666;
+}
+.circle-toggle-off{
+    position:relative;
+    top:3px;
+    left:2px;
+    border-radius:50%;
+    width: 18px;
+    height: 18px;
+    background-color: white;
+
+}
+
+.rectangle-toggle-on{
+      width: 48px;
+  height: 24px;
+  border-radius: 100px;
+  background-color: #12aab3;
+}
+.circle-toggle-on{
+    position:relative;
+    top:3px;
+    left:28px;
+    border-radius:50%;
+    width: 18px;
+    height: 18px;
+    background-color: white;
+
+}
