@@ -1,12 +1,14 @@
 .container{
     width: 300px;
-    height: 2307px;
+    height:2307px;
     border-radius: 5px;
     box-shadow: 1px 0 3px 0 rgba(0, 0, 0, 0.12), 1px 0 1px 0 rgba(0, 0, 0, 0.14);
     background-color: #fafafa;
     display: flex;
     flex-direction: column;
     padding:10px 10px 10px 10px;
+    bottom:0;
+   
 }
 .cards{
     margin-bottom:10px;

@@ -1,5 +1,5 @@
 .menu-bar{
-    width: 1330px;
+    width: 88.5vw;
     height: 50px;
     border-radius: 5px;
     box-shadow: 0 2px 4px 0 rgba(92, 90, 90, 0.1), inset 0 -1px 0 0 #dadada;
@@ -7,6 +7,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    
     
 }
 .menu-item{
@@ -32,45 +33,24 @@
 .buttons{
     padding-top:10px;
     display:flex;
-    flex-direction:row;
-   
+    flex-direction: row;
+    padding-right:10px;
+}
 
-}
-.discard-changes{
-position: relative;
-right: 40px;
-width: 139px;
-  height: 32px;
-  border-radius: 4px;
-  border: solid 1px #e24c4c;
-  background-color: white;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 0.71;
-  letter-spacing: normal;
-  text-align: center;
-  color: #e24c4c;
-}
 .save-changes{
-    position: relative;
-    right: 30px;
-    width: 120px;
-  height: 32px;
-  border-radius: 4px;
-  border: solid 1px #3cd3ad;
-  background-color: white;
+  width: 163px;
+  height: 11px;
   font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
+  font-size: 11px;
+  font-style: italic;
   font-weight: normal;
   font-stretch: normal;
-  font-style: normal;
-  line-height: 0.71;
+  
+  line-height: normal;
   letter-spacing: normal;
   text-align: center;
-  color: #3cd3ad;
+  color:#666666;
+  padding-right:30px;
 
   
 }
@@ -78,7 +58,7 @@ width: 139px;
 
 .publish-checklist{
     position: relative;
-    right: 10px;
+   
     border: none;
     width: 140px;
     height: 32px;

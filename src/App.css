@@ -1,42 +1,4 @@
 @import "../node_modules/@syncfusion/ej2-react-buttons/styles/material.css";
-html{
-  background-color: #ecedf1;
-}
-.App {
-  text-align: center;
-  margin:0px;
-  
-  
-}
-.header{
-
-}
-.stages{
-  position: absolute;;
-  top:131px;
-  left:150px;
-}
-.sidebar{
-  position: absolute;
-  left: 0px;
-  top:50px;
-  border-radius: 0px -50px 0 0;
-}
-
-.menubar{
-  position: absolute;
-  top:80px;
-  left:150px;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-
-
 .App-link {
   color: #61dafb;
 }
@@ -49,6 +11,60 @@ html{
     transform: rotate(360deg);
   }
 }
+html{
+  background-color: #ecedf1;
+}
+.App {
+  text-align: center;
+  margin:0px;
+  
+  
+}
+.header{
+
+}
+.main-section{
+  position: relative;
+  left:145px;
+  top:30px;
+  width: fit-content;
+
+
+
+ 
+}
+.stages{
+  width: fit-content;
+  position: absolute;
+  height: 100%;
+}
+.card-content{
+width: max-content;
+  top:80px;
+  
+  position: absolute;
+  left: 400px;
+
+}
+
+
+.sidebar{
+  position: absolute;
+  top:50px;
+  border-radius: 0px -50px 0 0;
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+
+/* 
 .upload{
  position:absolute;
  left:500px;
@@ -56,8 +72,9 @@ html{
  display:flex;
  flex-direction:column;
 
-}
-.box{
+} */
+
+/* .box{
 position:absolute;
  left:500px;
  top:500px;
@@ -103,4 +120,4 @@ position:absolute;
   position:absolute;
   left:500px;
   top:3100px;
-}
+} */

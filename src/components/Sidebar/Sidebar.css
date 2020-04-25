@@ -14,30 +14,26 @@
     display: flex;
     flex-direction:column;
     justify-content:space-between;
-    width: 130px;
-    height: 1026px;
+    width: 125px;
+    height: 100%;
     background-color: #fafafa;
 
 }
 ul{
-    padding-top:0px;  
     margin:0;
-    padding-right:30px;
     list-style: none;
     padding-left: 0px;
+
   
     
 }
 ul li{
-    
     text-align: center;
-    width: 130px;
     height: 70px;
     background-color: #fafafa;
     padding-bottom: 15px;
-    padding-right:0px;
-   
-   
+    padding-right:23px;
+ 
 }
 .icons{
     width: 15px;
@@ -87,22 +83,23 @@ ul li{
    
 }
 .hide-text{
-width: 31px;
-  height: 10px;
-  font-family:'Open Sans', sans-serif;
-  font-size: 14px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 0.71;
-  letter-spacing: normal;
-  text-align: center;
-  color: #808080;
-  padding-left:45px;
-  padding-top:0px;
+    width: 31px;
+    height: 10px;
+    font-family:'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.71;
+    letter-spacing: normal;
+    text-align: center;
+    color: #808080;
+    padding-left:45px;
+    padding-top:0px;
 }
 .hide-button{
   position:relative;
   bottom:0px;
   padding-bottom:0px;
+  padding-right:0;
 }

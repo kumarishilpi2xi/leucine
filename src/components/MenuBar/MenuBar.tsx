@@ -11,8 +11,7 @@ const MenuBar : React.FC = () => {
                 </span>
             </div>
             <div className='buttons'>
-                <button className='discard-changes'>Discard Changes</button>
-                <button className='save-changes'>Save Changes</button>
+                <h1 className='save-changes'>All changes saved automatically</h1>
                 <button className='publish-checklist'>Publish Checklist</button>
              
 
