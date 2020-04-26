@@ -61,7 +61,7 @@ const Sidebar : React.FC = () => {
         <ul >
             <li className='hide-button'>
                 <div className='hide-button'>
-                   <img src={Hide} className='hide-img'/>
+                   <img src={Hide} className='hide-img' alt='hide button'/>
                 
                 </div>
                 <div>

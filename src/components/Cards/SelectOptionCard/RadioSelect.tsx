@@ -1,6 +1,7 @@
 import React from 'react';
 import './RadioSelect.css';
 import Optional from '../../Optional/Optional';
+import { CheckBoxComponent } from '@syncfusion/ej2-react-buttons';
 
 type SelectProps ={
     isRadio:boolean;
@@ -40,11 +41,12 @@ const RadioSelect: React.FC<SelectProps> = ({isRadio, isCheckbox}:SelectProps) =
                     <li>
                     <div className='item'>
                         <div className='list-style'>
-                            {isCheckbox?<div className='checkbox'></div>
+                            {isCheckbox?<div className='checkbox' id='checkbox'>
+                                <CheckBoxComponent label="Right Side Label" checked={true}/>
+                            </div>
                             :isRadio? 
-                            <span className='material-icons' style={myStyle}>fiber_manual_record</span>
-                            :
-                            <span className='material-icons' style={iconStyle}>check_circle</span>
+                                <span className='material-icons' style={myStyle}>fiber_manual_record</span>
+                            :<span className='material-icons' style={iconStyle}>check_circle</span>
                             
                             }
                             
