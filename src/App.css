@@ -58,7 +58,7 @@ div.Navigation-buttons{
 .main-section{
   width: 86.9vw;
   background-color: white;
-  height: max-content;
+  height: 100%;
   border-radius: 5px;
 
  
@@ -70,6 +70,7 @@ div.Navigation-buttons{
 }
 .card-content{
 width: max-content;
+height: max-content;
 }
 
 

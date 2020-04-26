@@ -1,11 +1,14 @@
 
 .optional{
-    position:absolute;
+    position: relative;
     left:250px;
-    bottom:24px;
+    
+    /* bottom:24px; */
     width:150px;
     display:flex;
     flex-direction:row;
+    padding-bottom: 26px;
+    padding-top:20px;
 
 }
 .optional-text{
