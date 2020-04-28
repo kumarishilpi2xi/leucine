@@ -47,7 +47,7 @@ const Stages: React.FC = () => {
                     </div>
                 </div>
             </div>
-            <div className='cards'>
+            <div className='cards active-card'>
                 <div className='step-counter active-step-counter'>
                     5
                 </div>
@@ -57,6 +57,7 @@ const Stages: React.FC = () => {
                     </div>
                 </div>
             </div>
+            
             <div className='Navigation-buttons'>
                 <NavigationButtons/>
             </div>
