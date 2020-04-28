@@ -4,7 +4,7 @@ import Sidebar from './components/Sidebar/Sidebar';
 import Stages from './components/Stages/Stages';
 import MenuBar from './components/MenuBar/MenuBar';
 import CardContainer from './components/CardContainer/CardContainer';
-import NavigationButtons from './components/NavigationButtons/NavigationButtons';
+// import NavigationButtons from './components/NavigationButtons/NavigationButtons';
 import './App.css';
 
 

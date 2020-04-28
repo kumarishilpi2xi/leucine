@@ -51,20 +51,18 @@ const RadioSelect: React.FC<SelectProps> = ({isRadio, isCheckbox}:SelectProps) =
                             <span className='material-icons' style={closebuttonStyle}>close</span>
                             </div>
                         </div>
-                   
-                    
                     </li>
                     <li>
-                    <div className='item'>
-                    {isCheckbox?<div className='checkbox' id='checkbox'>
+                        <div className='item'>
+                        {isCheckbox?<div className='checkbox' id='checkbox'>
                                     <CheckBoxComponent label="Support Cross" checked={false} cssClass='e-success e-small'/>
-                                </div>
+                                    </div>
                                 :isRadio? 
                                 <RadioButtonComponent label="Support Cross" cssClass="radio e-small" name="custom"/>
                             :<CheckBoxComponent label="Support Cross" cssClass="e-custom" checked={true}/>}
                             
                         <div className='close-button'>
-                        <span className='material-icons' style={closebuttonStyle}>close</span>
+                            <span className='material-icons' style={closebuttonStyle}>close</span>
                         </div>
                     </div>
                     </li>
