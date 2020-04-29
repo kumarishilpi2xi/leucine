@@ -22,7 +22,7 @@
  
 
 }
-ul{
+.sidebar ul{
     margin:0;
     list-style: none;
     padding-left: 0px;
@@ -34,7 +34,7 @@ ul{
   
     
 }
-ul li{
+ul li {
    height: 70px;
     background-color: #fafafa;
     padding-bottom: 15px;
@@ -64,7 +64,7 @@ ul li{
     color: #808080;
     
 }
-.active{
+.active {
     background-color: #3cd3ad;
     color: white;
     font-weight: bold;
@@ -105,12 +105,6 @@ ul li{
  
 }
 .hide-button{
-   
-
-  
     align-content: center;
-  /* position:relative;
-  bottom:0px;
-  padding-bottom:0px;
-  padding-right:0; */
+
 }
