@@ -9,6 +9,7 @@ import MenuBar from './components/MenuBar/MenuBar';
 import SettingsDropdown from './components/SettingsDropdown/SettingsDropdown';
 import URLExecution from './components/Cards/URLExecution/URLExecution';
 import CleaningCard from './components/Cards/CleaningCard/CleaningCard';
+import MainComponent from './components/MainComponent/MainComponent';
 
 
 export default class App extends React.Component {
@@ -43,6 +44,9 @@ export default class App extends React.Component {
                 </div>
                 <div className='cleaning'>
                 <CleaningCard/>
+                </div>
+                <div className='main'>
+                    <MainComponent/>
                 </div>
             </div>
                
