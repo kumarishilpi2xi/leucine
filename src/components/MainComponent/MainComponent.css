@@ -127,7 +127,7 @@
     border-radius: 50px;
     box-shadow: 2px 3px 5px 0px rgba(85, 84, 84, 0.2);
 }
-.active{
+.parts-choice .active{
     box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.3), 0 1px 1px 0 rgba(0, 0, 0, 0.1);
     border: solid 1px #3cd3ad;
 }
