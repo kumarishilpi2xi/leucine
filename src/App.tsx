@@ -10,6 +10,8 @@ import SettingsDropdown from './components/SettingsDropdown/SettingsDropdown';
 import URLExecution from './components/Cards/URLExecution/URLExecution';
 import CleaningCard from './components/Cards/CleaningCard/CleaningCard';
 import MainComponent from './components/MainComponent/MainComponent';
+import DateTime from './components/Cards/DateTimeCard/DateTime';
+import ArrowControllers from './components/ArrowControllers/ArrowControllers';
 
 
 export default class App extends React.Component {
@@ -35,7 +37,8 @@ export default class App extends React.Component {
                 </div> */}
                 <div className='settings'>
                     
-                <SettingsDropdown/>
+                {/* <SettingsDropdown/> */}
+                <ArrowControllers/>
                 </div>
                 
                 
@@ -46,8 +49,11 @@ export default class App extends React.Component {
                 <CleaningCard/>
                 </div>
                 <div className='main'>
-                    <MainComponent/>
+                    {/* <MainComponent/> */}
+                    {/* <DateTime/> */}
+                    
                 </div>
+
             </div>
                
                 

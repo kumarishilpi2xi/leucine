@@ -5,6 +5,7 @@
   "dependencies": {
     "@material-ui/icons": "^4.9.1",
     "@syncfusion/ej2-react-buttons": "^18.1.42",
+    "@syncfusion/ej2-react-calendars": "^18.1.44",
     "@syncfusion/ej2-react-grids": "^18.1.42",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",

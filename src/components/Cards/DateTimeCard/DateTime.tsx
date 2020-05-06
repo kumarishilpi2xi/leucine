@@ -1,14 +1,20 @@
 import React from 'react';
 import './DateTime.css';
+import { CalendarComponent } from '@syncfusion/ej2-react-calendars';
 
 const DateTime:React.FC = () => {
     return(
         <div className='date-time-card'>
-            <div className='question'>
+            <div className='question-date-time'>
+            Select a Date below:
 
             </div>
-            <div className='datepicker'></div>
-            <div className='timepicker'></div>
+            <div className='datepicker'>
+                <CalendarComponent />
+            </div>
+            <div className='timepicker'>
+
+            </div>
         </div>
     );
 }
