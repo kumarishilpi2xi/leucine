@@ -14,7 +14,7 @@ class ArrowControllers extends React.Component<MyProps, MyState>{
     constructor(props: MyProps){
         super(props);
             this.state = {
-                active: 1,
+                active: 0,
                 arr: ['First', 'Second', 'Third', 'Forth','Fifth']
             };
     }
@@ -24,18 +24,19 @@ class ArrowControllers extends React.Component<MyProps, MyState>{
             <div className='divs'>
                 <div className="arrow-controllers">
                     <div className='up' >
-                        {this.state.active !== 1? <img src={Up} alt='up arrow' onClick={(e)=>this.setState({active: this.state.active - 1 })}/> : <div></div>}
+                        {this.state.active >= 1? <img src={Up} alt='up arrow' onClick={(e)=>this.setState({active: this.state.active - 1 })}/> : <div></div>}
                     </div>
                     <div className='seq-number'>
-                        {this.state.active}
+                        {this.state.active + 1 }
                     </div>
                     <div className='down'>
-                        {this.state.active !== (this.state.arr.length)? <img src={Down} alt='down arrow' onClick={(e)=>this.setState({active: this.state.active + 1 })}/> : <></>}
+                        {this.state.active !== (this.state.arr.length-1)? <img src={Down} alt='down arrow' onClick={(e)=>this.setState({active: this.state.active + 1 })}/> : <></>}
                     </div>
                     
                 </div>
                 <div className='div-content'>
-                    {this.state.arr.map((content, i) => this.state.active === i? this.state.arr[i-1]:<div></div>)}
+                    {this.state.arr.map((content, i) => this.state.active === i? content :<div></div>)}
+                    
                 </div>
             </div>
 
