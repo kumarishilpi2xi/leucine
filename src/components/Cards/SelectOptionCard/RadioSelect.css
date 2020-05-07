@@ -27,7 +27,11 @@
     padding-bottom:0px;
     margin-left:16px;
 }
+.options-container ul{
+  padding-inline-start: 0px;
+}
 .options-container ul li{
+  
     padding-top:10px;
     background-color:white;
     height:22px;
