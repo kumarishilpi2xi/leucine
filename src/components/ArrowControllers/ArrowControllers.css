@@ -23,12 +23,19 @@
 .divs{
     display: flex;
     flex-direction: row;
-    width: 200px;
+    background-color: white;
+    height:max-content;
 }
 .div-content{
-    padding-top:30px ;
-    padding-left:10px;
+    /* padding-top:30px ; */
+    padding-left:21px;
 }
 li{
     list-style: none;
+}
+
+.arrow-controllers{
+ position: relative;
+ top:40%;
+
 }
