@@ -14,25 +14,20 @@
     display: flex;
     flex-direction:column;
     justify-content:space-between;
+  
     width: 120px;
     height: 105vh;
     background-color: #fafafa;
-    z-index: 4;
- 
- 
-
+    z-index: 4;    
+    /* box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 2px 1px -1px rgba(0, 0, 0, 0.2); */
 }
 .sidebar ul{
+    padding-top:10px;
     margin:0;
     list-style: none;
     padding-left: 0px;
     display: block;
-
    
-    
-
-  
-    
 }
 ul li {
    height: 70px;
@@ -101,10 +96,12 @@ ul li {
     letter-spacing: normal;
     text-align: center;
     color: #808080;
+
     
  
 }
 .hide-button{
     align-content: center;
+    /* border-bottom: 1px solid rgb(206, 204, 204); */
 
 }

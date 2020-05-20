@@ -58,9 +58,9 @@ const Sidebar : React.FC = () => {
                 </div>
             </li>
         </ul>
-        <ul >
+        <ul className='hide-button'>
             <li className='hide-button'>
-                <div className='hide-button'>
+                <div className='hide-buttons'>
                    <img src={Hide} className='hide-img' alt='hide button'/>
                 
                 </div>
