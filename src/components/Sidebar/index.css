@@ -16,8 +16,8 @@
     justify-content:space-between;
   
     width: 120px;
-    height: 105vh;
-    background-color: #fafafa;
+    /*height: 105vh;*/
+    /*background-color: #fafafa;*/
     z-index: 4;    
     /* box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 2px 1px -1px rgba(0, 0, 0, 0.2); */
 }
@@ -29,11 +29,12 @@
     display: block;
    
 }
-ul li {
+.sidebar ul li {
    height: 70px;
-    background-color: #fafafa;
+    /*background-color: #fafafa;*/
     padding-bottom: 15px;
     /* padding-right:23px; */
+    cursor: pointer;
  
 }
 .icons{

@@ -67,32 +67,37 @@ export default class App extends React.Component<MyProps, MyState>{
             <div className='tab'>
                 <div className='main-section'>
                     <MenuBar/>
-                    <Stages/>
-                </div>
-                <div className='all'>
-                <div className='settings'>
-                    <NewCardContainer question='Ensure that you have the following cleaning aids:' add_stop={false} timed='12sse' due_on={'12dec'} optional={true} com_arr={[<CleaningInstrument/>]}/>
-                </div>
-                
-                <div className='url-exe'>
-                    <NewCardContainer question='Get the Cleaning Agent' add_stop={false} timed='12sec' due_on={'12dec'} optional={true} com_arr={[<CleaningQuery/>, <CleaningCheckBox/> ]}/>
-                </div>
-                
-                <div className='cleaning'>
-                    <NewCardContainer question='Ensure that ‘TO BE CLEANED” label is affixed on the Equipment' add_stop={false} timed='12sse' due_on={'12dec'} optional={true} com_arr={[<ComplyCard/>]}/>
-                </div>
+                    <div>
+                        <Stages/>
+                        <div className='disp-inline-block' style={{padding: '1em 2em'}}>
+                            <div className='all'>
+                                <div className='settings'>
+                                    <NewCardContainer question='Ensure that you have the following cleaning aids:' add_stop={false} timed='12sse' due_on={'12dec'} optional={true} com_arr={[<CleaningInstrument/>]}/>
+                                </div>
+                                
+                                <div className='url-exe'>
+                                    <NewCardContainer question='Get the Cleaning Agent' add_stop={false} timed='12sec' due_on={'12dec'} optional={true} com_arr={[<CleaningQuery/>, <CleaningCheckBox/> ]}/>
+                                </div>
+                                
+                                <div className='cleaning'>
+                                    <NewCardContainer question='Ensure that ‘TO BE CLEANED” label is affixed on the Equipment' add_stop={false} timed='12sse' due_on={'12dec'} optional={true} com_arr={[<ComplyCard/>]}/>
+                                </div>
 
-                <div className='main'>
-                    <ArrowControllers items={this.state.myList}/>
-                  
+                                <div className='main'>
+                                    <ArrowControllers items={this.state.myList}/>
+                                  
+                                </div>
+                                <div className='other-components'>
+                                    <SettingsDropdown/>
+                                </div>
+                                <div className='main-comp'>
+                                    <MainComponent/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div className='other-components'>
-                    <SettingsDropdown/>
-                </div>
-                <div className='main-comp'>
-                    <MainComponent/>
-                </div>
-                </div >
+              
             </div>
         </div>
         );
