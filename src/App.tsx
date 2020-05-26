@@ -69,7 +69,7 @@ export default class App extends React.Component<MyProps, MyState>{
                     <MenuBar/>
                     <div>
                         <Stages/>
-                        <div className='disp-inline-block' style={{padding: '1em 2em'}}>
+                        <div className='disp-inline-block' style={{padding: '1.5em 2em'}}>
                             <div className='all'>
                                 <div className='settings'>
                                     <NewCardContainer question='Ensure that you have the following cleaning aids:' add_stop={false} timed='12sse' due_on={'12dec'} optional={true} com_arr={[<CleaningInstrument/>]}/>

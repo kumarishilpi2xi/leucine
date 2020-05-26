@@ -40,27 +40,29 @@ code {
   top:0px;
 }
 .tab{
-  width: 90%;
-  height: 100%;
-  box-shadow: inset 0px 15px 10px -12px rgba(0,0,0,0.1);
-  border-top:1.5px solid  rgb(184, 184, 184);
-  position: relative;
-  top:30px;
-  left:120px;
-  border-top-left-radius: 23px;
-  background-color: #ecedf1;
-  z-index: 3;
-  padding-left:14px;
-  padding-top:8px;
+  width: 90%; 
+    height: 100%;
+    box-shadow: inset 0px 15px 10px -12px rgba(0,0,0,0.1);
+    border-top: 1.5px solid rgb(184, 184, 184);
+    /* position: relative; */
+  /*  top: 30px;
+    left: 120px;*/
+    border-top-left-radius: 20px;
+    background-color: #ecedf1;
+    z-index: 3;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-top: 30px;
+    margin-left: 120px;
 }
 
 .corner{
   width: 29px;
   height:29px;
-  position: relative;
+  /*position: relative;
   left:120px;
-  top:60px;
-  z-index: 2;
+  top:60px;*/
+  z-index: 20px;
   background-color: #fafafa;
 }
 
@@ -82,8 +84,9 @@ code {
 
 
 .sidebar-section{
-  position: absolute;
-  top:60px;
+  /*position: absolute;
+  top:60px;*/
+  float: left;
 /*  border-radius: 0px -50px 0 0;
 */}
 
@@ -93,7 +96,7 @@ code {
 
 .settings{
   width:max-content;
-  margin-top: 2em;
+  /*margin-top: 2em;*/
 /*  position:relative;
   top:-400px;
   left:400px;*/
