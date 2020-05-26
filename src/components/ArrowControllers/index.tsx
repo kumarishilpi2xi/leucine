@@ -4,6 +4,11 @@ import Up from '../../assets/arrow-up.png';
 import Down from '../../assets/arrow-down.png';
 import QueryCard from '../Cards/QueryCard';
 import RadioSelect from '../Cards/SelectOptionCard';
+import UploadCard from '../Cards/UploadCard/index';
+import DateCard from '../Cards/DateCard/index';
+import MediaUpload from '../Cards/MediaUpload/index';
+import SignatureUpload from '../Cards/SignatureUpload/index';
+import URLCard from '../Cards/URLCard/index';
 
 type MyType = {
   id: number,
@@ -26,7 +31,13 @@ export default class FruitList extends React.Component<MyProps, MyState> {
         { id: 1, component: <QueryCard/> },
         { id: 2, component: <RadioSelect isRadio isCheckbox={false}/>},
         { id: 3, component: <RadioSelect isRadio={false} isCheckbox />},
-        { id: 4, component: <RadioSelect isRadio={false} isCheckbox={false} /> }
+        { id: 4, component: <RadioSelect isRadio={false} isCheckbox={false} /> },
+        { id: 5, component: <UploadCard/> },
+        { id: 6, component: <DateCard/>},
+        { id: 7, component: <MediaUpload/>},
+        { id:8, component: <SignatureUpload/>},
+        { id:9, component:<URLCard/>}
+          
       ]
     };
   }

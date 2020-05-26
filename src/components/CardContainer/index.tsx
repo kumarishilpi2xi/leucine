@@ -8,6 +8,7 @@ import RadioSelect from '../Cards/SelectOptionCard';
 import SignatureUpload from '../Cards/SignatureUpload';
 import URLCard from '../Cards/URLCard';
 import UploadCard from '../Cards/UploadCard';
+// import CleaningCard from '../Cards/CleaningCard/index';
 
 const controlStyle = {
     fontSize:'32px',
@@ -43,6 +44,7 @@ const CardContainer:React.FC = () => {
                 <CardBox><URLCard/></CardBox>
                 <CardBox><RadioSelect isRadio={false} isCheckbox /></CardBox>
                 <CardBox><RadioSelect isRadio={false} isCheckbox={false} /> </CardBox>
+                
 
 
     </div>

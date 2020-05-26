@@ -19,6 +19,11 @@ import ComplyCard from './components/Cards/ComplyCard/index';
 import CleaningCheckBox from './components/Cards/CleaningCheckBox/index';
 import CleaningQuery from './components/Cards/CleaningQuery/index';
 import NewCardContainer from './components/CardContainer/NewCardContainer';
+import UploadCard from './components/Cards/UploadCard/index';
+import DateCard from './components/Cards/DateCard/index';
+import MediaUpload from './components/Cards/MediaUpload/index';
+import SignatureUpload from './components/Cards/SignatureUpload/index';
+import URLCard from './components/Cards/URLCard/index';
 
 type MyType = {
     id: number,
@@ -39,7 +44,12 @@ export default class App extends React.Component<MyProps, MyState>{
             { id: 1, component: <QueryCard/> },
             { id: 2, component: <RadioSelect isRadio isCheckbox={false}/>},
             { id: 3, component: <RadioSelect isRadio={false} isCheckbox />},
-            { id: 4, component: <RadioSelect isRadio={false} isCheckbox={false} /> }
+            { id: 4, component: <RadioSelect isRadio={false} isCheckbox={false} /> },
+            { id: 5, component: <UploadCard/> },
+            { id: 6, component: <DateCard/>},
+            { id: 7, component: <MediaUpload/>},
+            { id:8, component: <SignatureUpload/>},
+            { id:9, component:<URLCard/>}
           ]
         };
       }
@@ -73,7 +83,8 @@ export default class App extends React.Component<MyProps, MyState>{
                 </div>
 
                 <div className='main'>
-                    <CardContainer/>
+                    <ArrowControllers items={this.state.myList}/>
+                  
                 </div>
                 <div className='other-components'>
                     <SettingsDropdown/>

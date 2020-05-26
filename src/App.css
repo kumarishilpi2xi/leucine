@@ -92,20 +92,20 @@ html{
 }
 .main{
   position:relative; 
-  top:220px;
+  top:0px;
   width: max-content;
 }
 .other-components{
   width:max-content;
   position:relative;
-  top:-150px;
+  top:20px;
   left:450px;
  
 }
 .main-comp{
   width:max-content;
   position:relative;
-  top:-80px;
+  top:50px;
   left:450px;
 }
 .all{
