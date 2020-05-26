@@ -26,8 +26,6 @@ body {
 }
 
 .exp-div{
-  /*background: #fff;*/
-    /*height: 100vh;*/
     overflow-y: hidden;
 }
 
@@ -58,66 +56,47 @@ code {
   margin:0px;
 }
 .header{
-  /*position: absolute;*/
   position: fixed;
   right:0px;
   top:0px;
 }
 .tab{
-  width: 90%; 
-    /*height: 100%;*/
-    box-shadow: inset 0px 15px 10px -12px rgba(0,0,0,0.1);
-    border-top: 1.5px solid rgb(184, 184, 184);
-    /* position: relative; */
-  /*  top: 30px;
-    left: 120px;*/
-    border-top-left-radius: 20px;
-    background-color: #ecedf1;
-    z-index: 3;
-    padding-left: 20px;
-    padding-top: 20px;
-    margin-left: 120px;
-    position: fixed;
-    top:50px;
+  width: 90%;
+  box-shadow: inset 0px 15px 10px -12px rgba(0,0,0,0.1);
+  border-top: 1.5px solid rgb(184, 184, 184);
+  border-top-left-radius: 20px;
+  background-color: #ecedf1;
+  z-index: 3;
+  margin-left: 120px;
+  position: fixed;
+  top:50px;
+  padding-left: 1.5em;
+  padding-top: 1.3em;
 }
 
 .corner{
   width: 29px;
   height:29px;
-  /*position: relative;
-  left:120px;
-  top:60px;*/
-  z-index: 20px;
   background-color: #fafafa;
 }
 
 .main-section{
   width: 88.5vw;
   background-color: white;
-  /*height: 100%;*/
   border-radius: 5px;
 }
-/*.stages{
-  width: fit-content;
-  position: absolute;
-  height: 100%;
-}*/
 .card-content{
   width: max-content;
-  /*height: max-content;*/
 }
 
 
 .sidebar-section{
-  /*position: absolute;
-  top:60px;*/
   float: left;
   position: fixed;
   background-color: #fafafa;
   top: 60px;
   height: 100vh;
-/*  border-radius: 0px -50px 0 0;
-*/}
+}
 
 .m-top-tiny{
   margin-top: 1em;
@@ -125,47 +104,31 @@ code {
 
 .settings{
   width:max-content;
-  /*margin-top: 2em;*/
-/*  position:relative;
-  top:-400px;
-  left:400px;*/
-
 }
 .url-exe{
   width:max-content;
   margin-top: 2em;
-/*  position: relative;
-  top:-300px;
-  left:400px;*/
 }
 .cleaning{
   width:max-content;
   margin-top: 2em;
-/*  position: relative;
-  top:-200px;
-  left:400px;*/
 }
 .main{
-  /*position:relative; */
-   margin-top: 2em;
+  margin-top: 2em;
   top:0px;
   width: max-content;
 }
+
 .other-components{
   width:max-content;
-   margin-top: 2em;
-  /*position:relative;
-  top:20px;
-  left:450px;*/
- 
+  margin-top: 2em;
 }
+
 .main-comp{
   width:max-content;
    margin-top: 2em;
- /* position:relative;
-  top:50px;
-  left:450px;*/
 }
+
 .all{
   background-color: white;
 }
