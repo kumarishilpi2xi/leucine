@@ -31,16 +31,21 @@ body {
     overflow-y: hidden;
 }
 
-.exp2{
+.main-container-scroll{
   height: 100vh;
-    /*overflow: scroll;*/
 }
 
-.exp2{
-  height: 100vh;
-    overflow: scroll;
-    display: inline-block;
-    vertical-align: top;
+.container-scroll{
+  overflow: scroll;
+  display: inline-block;
+  vertical-align: top;
+}
+.stage-div{
+  height: 75vh;
+}
+
+.steps-div{
+  height: 80vh;
 }
 
 code {
@@ -71,9 +76,9 @@ code {
     z-index: 3;
     padding-left: 20px;
     padding-top: 20px;
-    margin-top: 30px;
     margin-left: 120px;
     position: fixed;
+    top:50px;
 }
 
 .corner{

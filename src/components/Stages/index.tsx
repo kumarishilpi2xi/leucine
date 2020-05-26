@@ -88,9 +88,7 @@ const Stages: React.FC = () => {
                 </div>
             </div>
             
-            <div className='navigation-buttons'>
-                <NavigationButtons/>
-            </div>
+            <NavigationButtons />
         </div>
     );
 }

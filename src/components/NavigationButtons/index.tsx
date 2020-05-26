@@ -16,15 +16,14 @@ const images = {
 
 const NavigationButtons: React.FC = () => {
     return(
-        <div className='nav-buttons'>
-            
-            <div className='but'>
+        <div className='navigation-buttons'>   
+            <div className='nav-btn-boxes'>
                 <Buttons image={images.image1} alt={'New Section'} title={'New Section'} />
             </div>
-            <div className='but'>
+            <div className='nav-btn-boxes'>
                 <Buttons image={images.image2} alt={'Duplicate'} title={'Duplicate'} />
             </div>
-            <div className='but'>
+            <div className='nav-btn-boxes'>
                 <Buttons image={images.image4} alt={'ArrowUp'} title={'Move Up'} />
             </div>
             <div>

@@ -99,6 +99,15 @@
 .navigation-buttons{
     position: fixed;
     top: 90%;
-    box-shadow: 0px -1px 12px 1px rgba(0, 0, 0, 0.45);
+    box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.45);
     border-radius: 8px;
+    display: flex;
+    /* flex-direction: row; */
+    width: 300px;
+    /* height: 45px; */
+    border-radius: 5px;
+    border: 0.5px solid rgb(224, 224, 224);
+    background-color: white;
+    justify-content: space-between;
+    /* box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.2);*/
 }

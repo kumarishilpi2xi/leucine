@@ -66,11 +66,11 @@ export default class App extends React.Component<MyProps, MyState>{
                     <div className='tab'>
                         <div className='main-section'>
                             <MenuBar/>
-                            <div className="exp1">
-                                <div className="exp2">
+                            <div className="main-container-scroll">
+                                <div className="container-scroll stage-div">
                                     <Stages/>
                                 </div>
-                                <div className="exp2">
+                                <div className="container-scroll steps-div">
                                     <div className='disp-inline-block' style={{padding: '1.5em 2em'}}>
                                     <div className='all'>
                                         <div className='settings'>
