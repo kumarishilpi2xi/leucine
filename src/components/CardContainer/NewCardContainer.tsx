@@ -1,6 +1,6 @@
 import React from 'react';
 import './NewCardContainer.css';
-import StepDescription from '../Cards/StepDescription/StepDescription';
+import StepDescription from '../Cards/StepDescription';
 
 type CardProps = {
     question:string,

@@ -1,0 +1,44 @@
+.header{
+  width: 100vw;
+  height: 60px;
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.logo img{
+  padding:12px 0px 10px 20px;
+  width: 110px;
+  height: 30px;
+  object-fit: contain;
+}
+
+.account{
+  position: relative;
+  right:20px;
+  padding-top:15px;
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+}
+.icon-shape{
+    padding-right: 7px;
+}
+.shape {
+    width: 16px;
+    height: 16px;
+}
+.account-text{
+  padding-top:1px;
+  width: 60px;
+  height: 14px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #3cd3ad;
+
+}

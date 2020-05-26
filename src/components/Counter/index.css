@@ -1,0 +1,31 @@
+.counter{
+    display:flex;
+    flex-direction: row;
+    padding:9px 0px 0px 0px;
+}
+.decrement, .increment{
+    width:36px;
+    height:36px;
+    border-radius: 5px 0px 0px 5px;
+    border: solid 1px #dadada;
+    background-color: #ffffff;
+    cursor:pointer;
+    padding:0px;
+}
+.increment{
+    border-radius: 0px 5px 5px 0px; 
+}
+.count{
+    text-align: center;
+    line-height:36px;
+    width:28px;
+    height:36px;
+    box-shadow: inset 0 -1px 0 0 #dadada, inset 0 1px 0 0 #dadada;
+    background-color: #ffffff;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    color: #666666;
+}

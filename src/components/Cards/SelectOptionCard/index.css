@@ -1,0 +1,152 @@
+.radio-select-card{
+  width: 384px;
+  height: max-content;
+  border-radius: 4px;
+  box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.12), 0 3px 4px 0 rgba(0, 0, 0, 0.14), 0 3px 3px -2px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  display:flex;
+  flex-direction:column;
+}
+.item{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  align-content:center;
+}
+.options-container{
+  padding-top:17px;
+  background-color:white;
+  width:344px;
+  height:min-content;
+  border-bottom:2px solid #12aab3;
+  padding-bottom:0px;
+  margin-left:16px;
+}
+.options-container ul{
+  padding-inline-start: 0px;
+}
+.options-container ul li{
+    padding-top:10px;
+    background-color:white;
+    height:22px;
+    list-style:none;
+    width:344px;
+}
+.question{
+  /* font-family: Nunito; */
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #666666;
+  padding:24px 16px 0px 16px;
+}
+.option-description{
+  position:absolute;
+  left:56px;
+}
+.add-new-radioselect{
+  padding:8px 16px 0px 16px;
+  width: 121px;
+  height: 22px;
+  /* font-family: Nunito; */
+  font-size: 16px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #12aab3;
+}
+     
+.e-checkbox-wrapper.e-success .e-frame.e-check,
+.e-checkbox-wrapper.e-success .e-checkbox:focus + .e-frame.e-check { /* csslint allow: adjoining-classes */
+  background-color: #12aab3;  
+}
+
+.e-checkbox-wrapper.e-success:hover .e-frame.e-check { /* csslint allow: adjoining-classes */
+  background-color: #12aab3;  
+}
+
+/* CHecked Icon */
+.e-custom.e-checkicon.e-checkbox-wrapper .e-frame.e-check::before {
+  content: '\e703';
+}
+.e-custom.e-checkicon.e-checkbox-wrapper .e-check {
+  font-size: 8px;
+}
+.e-custom.e-checkicon.e-checkbox-wrapper .e-frame.e-check {
+  border-color: grey;
+  color: grey;
+  border-radius: 100%;
+}
+.e-custom.e-checkbox-wrapper .e-frame.e-check, .e-css.e-checkbox-wrapper .e-frame.e-check {
+  border-color: transparent;
+  color: black;
+  border-radius: 100%;
+}
+
+.e-custom.e-checkbox-wrapper.e-custom .e-frame.e-check,
+.e-custom.e-checkbox-wrapper.e-custom .e-checkbox:focus + .e-frame.e-check { /* csslint allow: adjoining-classes */
+  background-color: #bababa;
+  border-radius: 100%;
+  color: #858383;
+  border: 1.5px solid #858383;
+}
+
+.e-custom.e-checkbox-wrapper.e-custom:hover .e-frame.e-check { /* csslint allow: adjoining-classes */
+  background-color: #bababa;
+  border-radius: 100%;
+  
+}
+.e-custom.e-checkbox-wrapper.e-custom{
+    border-radius: 100%;
+}
+.e-custom.e-checkbox-wrapper .e-checkbox + .e-frame, .e-custom.e-css.e-checkbox-wrapper .e-checkbox+ .e-frame {
+    border-radius: 100%;
+}
+
+/* RAdio Button */
+
+.e-radio:checked + .radio::after { /* csslint allow: adjoining-classes */
+    background-color: #12aab3;
+    border-color: #12aab3;
+  }
+  
+.e-radio:checked:focus + .radio::after, .e-radio:checked + .radio:hover::after { /* csslint allow: adjoining-classes */
+  background-color: #12aab3;
+  border-color: #12aab3;
+}
+.e-radio:checked + .radio::before {
+  border-color: #12aab3;
+}
+
+.e-radio:checked:focus + .radio::before, .e-radio:checked + .rasio:hover::before { /* csslint allow: adjoining-classes */
+  border-color: #12aab3;
+}
+
+.e-radio +.radio:hover::before {
+  border-color: #b1afaf
+}
+
+.e-label{
+  padding-left:10px;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #666666;
+}
+label{
+  padding-left:0px;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #666666;
+}

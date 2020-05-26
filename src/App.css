@@ -12,7 +12,6 @@
   }
 }
 html{
-  /* background-color: #ecedf1; */
   background-color: #ecedf1;
 }
 .App {
@@ -29,7 +28,6 @@ html{
   height: 100%;
   box-shadow: inset 0px 15px 10px -12px rgba(0,0,0,0.1);
   border-top:1.5px solid  rgb(184, 184, 184);
-
   position: relative;
   top:30px;
   left:120px;
@@ -37,9 +35,7 @@ html{
   background-color: #ecedf1;
   z-index: 3;
   padding-left:14px;
-  
   padding-top:8px;
-
 }
 
 .corner{
@@ -57,8 +53,6 @@ html{
   background-color: white;
   height: 100%;
   border-radius: 5px;
-
- 
 }
 .stages{
   width: fit-content;
@@ -66,9 +60,8 @@ html{
   height: 100%;
 }
 .card-content{
- 
-width: max-content;
-height: max-content;
+  width: max-content;
+  height: max-content;
 }
 
 
@@ -76,11 +69,6 @@ height: max-content;
   position: absolute;
   top:60px;
   border-radius: 0px -50px 0 0;
-  /* box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 2px 1px -1px rgba(0, 0, 0, 0.2); */
-  z-index:4;
-  
-
-
 }
 
 .settings{
@@ -103,9 +91,23 @@ height: max-content;
   left:400px;
 }
 .main{
-  position:relative;
-  top:-180px;
-  left:400px;
+  position:relative; 
+  top:220px;
   width: max-content;
-
+}
+.other-components{
+  width:max-content;
+  position:relative;
+  top:-150px;
+  left:450px;
+ 
+}
+.main-comp{
+  width:max-content;
+  position:relative;
+  top:-80px;
+  left:450px;
+}
+.all{
+  background-color: white;
 }
