@@ -73,6 +73,7 @@ code {
     padding-top: 20px;
     margin-top: 30px;
     margin-left: 120px;
+    position: fixed;
 }
 
 .corner{
@@ -107,6 +108,9 @@ code {
   top:60px;*/
   float: left;
   position: fixed;
+  background-color: #fafafa;
+  top: 60px;
+  height: 100vh;
 /*  border-radius: 0px -50px 0 0;
 */}
 
