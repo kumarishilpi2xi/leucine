@@ -96,7 +96,9 @@
     letter-spacing: normal;
     color: #3cd3ad;
 }
-.Navigation-buttons{
+.navigation-buttons{
     position: fixed;
-    top:90%;
+    top: 90%;
+    box-shadow: 0px -1px 12px 1px rgba(0, 0, 0, 0.45);
+    border-radius: 8px;
 }

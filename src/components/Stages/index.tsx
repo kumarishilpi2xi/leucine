@@ -57,8 +57,38 @@ const Stages: React.FC = () => {
                     </div>
                 </div>
             </div>
+            <div className='cards active-card'>
+                <div className='step-counter active-step-counter'>
+                    6
+                </div>
+                <div className='description active-step'>
+                    <div className='description-text active-description'>
+                        Dismantling of Parts
+                    </div>
+                </div>
+            </div>
+            <div className='cards active-card'>
+                <div className='step-counter active-step-counter'>
+                    7
+                </div>
+                <div className='description active-step'>
+                    <div className='description-text active-description'>
+                        Dismantling of Parts
+                    </div>
+                </div>
+            </div>
+            <div className='cards active-card'>
+                <div className='step-counter active-step-counter'>
+                    8
+                </div>
+                <div className='description active-step'>
+                    <div className='description-text active-description'>
+                        Dismantling of Parts
+                    </div>
+                </div>
+            </div>
             
-            <div className='Navigation-buttons'>
+            <div className='navigation-buttons'>
                 <NavigationButtons/>
             </div>
         </div>

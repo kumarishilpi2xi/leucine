@@ -55,51 +55,56 @@ export default class App extends React.Component<MyProps, MyState>{
       }
     render() {
         return (
-        <div>
-            <div className='corner'>
-            </div>
-            <div className='header'>
-                <Header/>
-            </div>
-            <div className='sidebar-section'>
-                <Sidebar/>
-            </div>
-            <div className='tab'>
-                <div className='main-section'>
-                    <MenuBar/>
-                    <div>
-                        <Stages/>
-                        <div className='disp-inline-block' style={{padding: '1.5em 2em'}}>
-                            <div className='all'>
-                                <div className='settings'>
-                                    <NewCardContainer question='Ensure that you have the following cleaning aids:' add_stop={false} timed='12sse' due_on={'12dec'} optional={true} com_arr={[<CleaningInstrument/>]}/>
-                                </div>
-                                
-                                <div className='url-exe'>
-                                    <NewCardContainer question='Get the Cleaning Agent' add_stop={false} timed='12sec' due_on={'12dec'} optional={true} com_arr={[<CleaningQuery/>, <CleaningCheckBox/> ]}/>
-                                </div>
-                                
-                                <div className='cleaning'>
-                                    <NewCardContainer question='Ensure that ‘TO BE CLEANED” label is affixed on the Equipment' add_stop={false} timed='12sse' due_on={'12dec'} optional={true} com_arr={[<ComplyCard/>]}/>
-                                </div>
 
-                                <div className='main'>
-                                    <ArrowControllers items={this.state.myList}/>
-                                  
+            <div className="exp-div">
+                <div>
+                    <div className='corner' />
+                    <Header/>
+                    <div className='sidebar-section'>
+                        <Sidebar/>
+                    </div>
+                    <div className='tab'>
+                        <div className='main-section'>
+                            <MenuBar/>
+                            <div className="exp1">
+                                <div className="exp2">
+                                    <Stages/>
                                 </div>
-                                <div className='other-components'>
-                                    <SettingsDropdown/>
-                                </div>
-                                <div className='main-comp'>
-                                    <MainComponent/>
+                                <div className="exp2">
+                                    <div className='disp-inline-block' style={{padding: '1.5em 2em'}}>
+                                    <div className='all'>
+                                        <div className='settings'>
+                                            <NewCardContainer question='Ensure that you have the following cleaning aids:' add_stop={false} timed='12sse' due_on={'12dec'} optional={true} com_arr={[<CleaningInstrument/>]}/>
+                                        </div>
+                                        
+                                        <div className='url-exe'>
+                                            <NewCardContainer question='Get the Cleaning Agent' add_stop={false} timed='12sec' due_on={'12dec'} optional={true} com_arr={[<CleaningQuery/>, <CleaningCheckBox/> ]}/>
+                                        </div>
+                                        
+                                        <div className='cleaning'>
+                                            <NewCardContainer question='Ensure that ‘TO BE CLEANED” label is affixed on the Equipment' add_stop={false} timed='12sse' due_on={'12dec'} optional={true} com_arr={[<ComplyCard/>]}/>
+                                        </div>
+
+                                        <div className='main'>
+                                            <ArrowControllers items={this.state.myList}/>
+                                          
+                                        </div>
+                                        <div className='other-components'>
+                                            <SettingsDropdown/>
+                                        </div>
+                                        <div className='main-comp'>
+                                            <MainComponent/>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    </div>
                 </div>
-              
             </div>
-        </div>
+
+      
         );
     }
 }
